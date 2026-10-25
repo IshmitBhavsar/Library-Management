@@ -399,7 +399,7 @@ static void threshold_report(void)
     double minimum = read_number("Minimum copies: ");
     double maximum = read_number("Maximum copies: ");
     print_header();
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         if (records[i].copies >= minimum && records[i].copies <= maximum)
         {
