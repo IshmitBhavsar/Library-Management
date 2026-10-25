@@ -101,7 +101,7 @@ static void read_text(const char *prompt, char *target)
     target[strcspn(target, "\n")] = '\0';
 }
 
-static int find_id(int id)
+static int find_id(int id);
 {
     int i;
     for (i = 0; i < count; ++i)
