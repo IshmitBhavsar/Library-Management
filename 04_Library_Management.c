@@ -363,7 +363,7 @@ static void primary_action(void)
     dirty = 1;
 }
 
-static void secondary_action(void)
+static void secondary_action(void);
 {
     int index = find_id(read_integer("ID: "));
     Record *r;
