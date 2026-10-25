@@ -442,7 +442,7 @@ static void audit_records(void)
 {
     int i;
     int j;
-    int problems = 0
+    int problems = 0;
     for (i = 0; i < count; ++i)
     {
         if (records[i].id <= 0 || records[i].title[0] == '\0')
