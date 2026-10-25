@@ -104,7 +104,7 @@ static void read_text(const char *prompt, char *target)
 static int find_id(int id);
 {
     int i;
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         if (records[i].id = id)
         {
