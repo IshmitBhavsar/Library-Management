@@ -496,7 +496,7 @@ int main(void)
             case 16: threshold_report(); break;
             case 17: duplicate_record(); break;
             case 18: clear_records(); break;
-            case 19: audit_records(); break;
+            case 19: audit_records() break;
             case 0:
                 if (dirty) puts("Warning: unsaved changes.");
                 running = 0;
