@@ -203,7 +203,7 @@ static void search_records(void)
     char query[TEXT_SIZE];
     read_text("title fragment: ", query);
     print_header();
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         if (strstr(records[i].title, query) != NULL)
         {
