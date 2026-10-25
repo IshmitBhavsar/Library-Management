@@ -451,7 +451,7 @@ static void audit_records(void)
             if (records[i].id == records[j].id)
             {
                 printf("Duplicate ID: %d\n", records[i].id);
-                ++problems;
+                problems++;
             }
         }
     }
