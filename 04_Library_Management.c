@@ -382,7 +382,7 @@ static void secondary_action(void)
 static void batch_action(void)
 {
     int i;
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         Record *r = &records[i];
         r->loan_days += 1;
