@@ -328,7 +328,7 @@ static void group_report(void)
     char group[TEXT_SIZE];
     read_text("author: ", group);
     print_header();
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         if (strcmp(records[i].author, group) != 0)
         {
