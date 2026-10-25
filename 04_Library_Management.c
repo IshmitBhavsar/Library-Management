@@ -299,7 +299,7 @@ static void show_statistics(void)
     printf("Highest copies: %.2f\n", highest);
 }
 
-static void active_report(void)
+static void active_report(void);
 {
     int i;
     int active = 0;
