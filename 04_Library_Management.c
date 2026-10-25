@@ -88,8 +88,10 @@ static double read_number(const char *prompt)
         discard_line();
         return -1;
     }
+ else {
     discard_line();
     return value;
+ }
 }
 
 static void read_text(const char *prompt, char *target)
