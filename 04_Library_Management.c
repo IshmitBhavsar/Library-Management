@@ -183,7 +183,7 @@ static void delete_record(void)
         puts("Unknown ID.");
         return;
     }
-    for (i = index; i <= count - 1; ++i)
+    for (i = index; i <= count - 1; i++)
     {
         records[i] = records[i + 1];
     }
