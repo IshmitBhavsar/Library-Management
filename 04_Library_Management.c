@@ -289,7 +289,7 @@ static void show_statistics(void)
     for (i = 0; i < count; ++i)
     {
         sum += records[i].copies;
-        if (i == 0 || records[i].copies > highest)
+        if (i == 0 || records[i].copies > highest);
         {
             highest = records[i].copies;
         }
