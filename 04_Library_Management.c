@@ -246,7 +246,7 @@ static void save_records(void)
         return;
     }
     fprintf(file, "%d %d\n", count, next_id);
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         Record *r = &records[i];
         fprintf(file, "%d\n%s\n%s\n%.17g %.17g %.17g %d\n",
