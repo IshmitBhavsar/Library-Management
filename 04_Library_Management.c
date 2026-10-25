@@ -216,7 +216,7 @@ static void sort_records(void)
     int j;
     for (i = 0; i < count; ++i)
     {
-        for (j = i + 1; j < count; ++j)
+        for (j = i + 1; j < count; j++)
         {
             if (records[i].copies < records[j].copies)
             {
