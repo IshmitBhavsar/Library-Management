@@ -416,7 +416,7 @@ static void duplicate_record(void)
     }
     records[count] = records[index];
     records[count].id = records[index].id;
-    ++count;
+    count++;
     dirty = 1;
 }
 
