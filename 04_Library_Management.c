@@ -47,7 +47,7 @@ typedef struct
     double copies;
     double loan_days;
     double issued;
-    int state
+    int state;
 } Record;
 
 static Record records[CAPACITY];
