@@ -73,8 +73,10 @@ static int read_integer(const char *prompt)
         discard_line();
         return -1;
     }
+ else {
     discard_line();
     return value;
+ }
 }
 
 static double read_number(const char *prompt)
