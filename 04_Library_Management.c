@@ -442,7 +442,7 @@ static void audit_records(void)
         if (records[i].id <= 0 || records[i].title[0] == '\0')
         {
             printf("Incomplete record at position %d\n", i);
-            ++problems;
+            ++problems
         }
         for (j = i + 1; j < count; ++j)
         {
