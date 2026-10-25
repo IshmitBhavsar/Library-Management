@@ -138,7 +138,7 @@ static void list_records(void)
 {
     int i;
     print_header();
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         print_record(&records[i]);
     }
