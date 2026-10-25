@@ -4,7 +4,7 @@
  * Repair compilation, input handling, state changes, reports, and persistence.
  */
 /*
- * Domain requirements for teams:
+ 
  * Record kind: book.
  * Primary text: title; grouping text: author.
  * Numeric fields: copies, loan_days, issued.
