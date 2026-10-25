@@ -220,7 +220,7 @@ static void sort_records(void)
 {
     int i;
     int j;
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         for (j = i + 1; j < count; j++)
         {
