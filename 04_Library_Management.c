@@ -41,7 +41,7 @@
 
 typedef struct
 {
-    int id
+    int id;
     char title[TEXT_SIZE];
     char author[TEXT_SIZE];
     double copies;
