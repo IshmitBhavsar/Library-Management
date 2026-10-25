@@ -102,8 +102,10 @@ static void read_text(const char *prompt, char *target)
         target[0] = '\0';
         return;
     }
+ else {
     target[strcspn(target, "\n")] = '\0';
-}
+ }
+ }
 
 static int find_id(int id);
 {
