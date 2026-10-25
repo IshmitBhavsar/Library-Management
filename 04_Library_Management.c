@@ -304,7 +304,7 @@ static void active_report(void);
     int i;
     int active = 0;
     print_header();
-    for (i = 0; i < count; ++i)
+    for (i = 0; i < count; i++)
     {
         if (records[i].state = 1)
         {
